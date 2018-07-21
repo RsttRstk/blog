@@ -13,8 +13,8 @@
 # use grunt task `build` to synchronize assets
 
 baseURL = "https://blog.t-uverworld.com/"
-languageCode = "ja"
-defaultContentLanguage = "ja"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
 title = "BrainSeed"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "BrainSeed"
@@ -112,7 +112,7 @@ canonifyurls = true
   syntaxHighlighter = "highlight.js"
 
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
-  clearReading = true
+  clearReading = false
 
   # Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo". 
   # If false it will flat categories.
@@ -170,13 +170,13 @@ canonifyurls = true
 
   # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
   # they have to be referred from static root. Example
-  # [[params.customCSS]]
-  #   href = "css/mystyle.css"
+   [[params.customCSS]]
+     href = "css/mystyle.css"
 
   # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
   # they have to be referred from static root. Example
   # [[params.customJS]]
-  #   src = "js/myscript.js"
+  #  src = "js/font.js"
 
   # Display `Next` on left side of the pagination, and `Prev` on right side one.
   # If you set this value to `true`, these positions swap.
