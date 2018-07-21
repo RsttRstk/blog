@@ -1,0 +1,16 @@
+body,h1,h2,h3,h4,h5,h6,html {
+  font-family: "a-otf-ud-shin-go-pr6n" !important;
+  }
+
+.post .post-content,code, pre>code {
+  font-family: "a-otf-ud-shin-go-pr6n" !important;
+  }
+
+.codeblock .code, .codeblock .gutter, .codeblock .tag, .codeblock pre, figure.highlight .code, figure.highlight .gutter, figure.highlight .tag, figure.highlight pre {
+  font-family: "a-otf-ud-shin-go-pr6n" !important;
+  }
+
+h1,h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .1em;
+}
