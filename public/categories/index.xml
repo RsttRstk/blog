@@ -5,7 +5,7 @@
     <link>https://blog.t-uverworld.com/categories/</link>
     <description>Recent content in Categories on BrainSeed</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en-us</language>
     
 	<atom:link href="https://blog.t-uverworld.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Category</title>
       <link>https://blog.t-uverworld.com/categories/category/</link>
-      <pubDate>Mon, 16 Jul 2018 01:52:04 +0900</pubDate>
+      <pubDate>Sat, 21 Jul 2018 15:39:30 +0900</pubDate>
       
       <guid>https://blog.t-uverworld.com/categories/category/</guid>
       <description></description>
@@ -40,7 +40,7 @@
     <item>
       <title>Subcategory</title>
       <link>https://blog.t-uverworld.com/categories/subcategory/</link>
-      <pubDate>Mon, 16 Jul 2018 01:52:04 +0900</pubDate>
+      <pubDate>Sat, 21 Jul 2018 15:39:30 +0900</pubDate>
       
       <guid>https://blog.t-uverworld.com/categories/subcategory/</guid>
       <description></description>

@@ -12,9 +12,11 @@
   
 
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en-us">
   <head>
-    
+    <script src="https://use.typekit.net/zil4jpk.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.42.2 with theme Tranquilpeak 0.4.3-BETA">
@@ -62,6 +64,10 @@
     <link rel="stylesheet" href="https://blog.t-uverworld.com/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
     
     
+      
+        <link rel="stylesheet"  href="https://blog.t-uverworld.com/css/mystyle.css">
+      
+    
 
     
       
@@ -97,7 +103,7 @@ if (!doNotTrack) {
     
     
       
-        <img class="header-picture" src="//www.gravatar.com/avatar/771b9d07ddb5a87b65f6144a2603a23c?s=90" alt="プロフィール画像" />
+        <img class="header-picture" src="//www.gravatar.com/avatar/771b9d07ddb5a87b65f6144a2603a23c?s=90" alt="Author&#39;s picture" />
       
     
     </a>
@@ -109,7 +115,7 @@ if (!doNotTrack) {
     
       <div class="sidebar-profile">
         <a href="https://blog.t-uverworld.com/#about">
-          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/771b9d07ddb5a87b65f6144a2603a23c?s=110" alt="プロフィール画像" />
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/771b9d07ddb5a87b65f6144a2603a23c?s=110" alt="Author&#39;s picture" />
         </a>
         <h4 class="sidebar-profile-name">RsttRstk</h4>
         
@@ -125,7 +131,7 @@ if (!doNotTrack) {
     
       <i class="sidebar-button-icon fa fa-lg fa-home"></i>
       
-      <span class="sidebar-button-desc">ホーム</span>
+      <span class="sidebar-button-desc">Home</span>
     </a>
   </li>
 
@@ -135,7 +141,7 @@ if (!doNotTrack) {
     
       <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
       
-      <span class="sidebar-button-desc">カテゴリー</span>
+      <span class="sidebar-button-desc">Categories</span>
     </a>
   </li>
 
@@ -145,7 +151,7 @@ if (!doNotTrack) {
     
       <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
       
-      <span class="sidebar-button-desc">タグ</span>
+      <span class="sidebar-button-desc">Tags</span>
     </a>
   </li>
 
@@ -155,7 +161,7 @@ if (!doNotTrack) {
     
       <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
       
-      <span class="sidebar-button-desc">アーカイブ</span>
+      <span class="sidebar-button-desc">Archives</span>
     </a>
   </li>
 
@@ -191,14 +197,22 @@ if (!doNotTrack) {
 
         <div id="tags-archives" class="main-content-wrap">
           <form id="filter-form" action="#">
-            <input name="tag" type="text" class="form-control input--xlarge" placeholder="タグ検索" autofocus="autofocus">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="Search tag" autofocus="autofocus">
           </form>
           <h4 class="archive-result text-color-base text-xlarge"
-              data-message-zero=""
-              data-message-one=""
-              data-message-other=""></h4>
+              data-message-zero="no tag found"
+              data-message-one="1 tag found"
+              data-message-other="{n} tags found"></h4>
 
             <section>
+              
+                <a class="tag tag--primary tag--small" href="#tag1-list" data-tag="tag1">
+                  tag1
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#tag2-list" data-tag="tag2">
+                  tag2
+                </a>
               
                 <a class="tag tag--primary tag--small" href="#test-list" data-tag="test">
                   test
@@ -272,14 +286,6 @@ if (!doNotTrack) {
                   tag-plugins
                 </a>
               
-                <a class="tag tag--primary tag--small" href="#tag1-list" data-tag="tag1">
-                  tag1
-                </a>
-              
-                <a class="tag tag--primary tag--small" href="#tag2-list" data-tag="tag2">
-                  tag2
-                </a>
-              
                 <a class="tag tag--primary tag--small" href="#tags-list" data-tag="tags">
                   tags
                 </a>
@@ -298,6 +304,84 @@ if (!doNotTrack) {
               
             </section>
             <section class="boxes">
+              
+                <div id="tag1-list" class="archive box" data-tag="tag1">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="tag1">
+                      tag1 (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://blog.t-uverworld.com/2018/07/test/">
+                          Test
+                        </a>
+                        <span class="archive-post-date"> - 
+  
+  
+  
+  
+    2018/07/16
+  
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://blog.t-uverworld.com/2018/07/markdown%E8%A8%98%E6%B3%95/">
+                          Markdown記法
+                        </a>
+                        <span class="archive-post-date"> - 
+  
+  
+  
+  
+    2018/07/21
+  
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="tag2-list" class="archive box" data-tag="tag2">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="tag2">
+                      tag2 (2)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://blog.t-uverworld.com/2018/07/test/">
+                          Test
+                        </a>
+                        <span class="archive-post-date"> - 
+  
+  
+  
+  
+    2018/07/16
+  
+</span>
+                      </li>
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://blog.t-uverworld.com/2018/07/markdown%E8%A8%98%E6%B3%95/">
+                          Markdown記法
+                        </a>
+                        <span class="archive-post-date"> - 
+  
+  
+  
+  
+    2018/07/21
+  
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
               
                 <div id="test-list" class="archive box" data-tag="test">
                   <h4 class="archive-title">
@@ -763,56 +847,6 @@ if (!doNotTrack) {
                   </ul>
                 </div>
               
-                <div id="tag1-list" class="archive box" data-tag="tag1">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="tag1">
-                      tag1 (1)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="https://blog.t-uverworld.com/2018/07/test/">
-                          Test
-                        </a>
-                        <span class="archive-post-date"> - 
-  
-  
-  
-  
-    2018/07/16
-  
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
-                <div id="tag2-list" class="archive box" data-tag="tag2">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="tag2">
-                      tag2 (1)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="https://blog.t-uverworld.com/2018/07/test/">
-                          Test
-                        </a>
-                        <span class="archive-post-date"> - 
-  
-  
-  
-  
-    2018/07/16
-  
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
                 <div id="tags-list" class="archive box" data-tag="tags">
                   <h4 class="archive-title">
                     <a class="link-unstyled" href="tags">
@@ -929,7 +963,7 @@ if (!doNotTrack) {
       <i class="fa fa-remove"></i>
     </div>
     
-      <img id="about-card-picture" src="//www.gravatar.com/avatar/771b9d07ddb5a87b65f6144a2603a23c?s=110" alt="プロフィール画像" />
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/771b9d07ddb5a87b65f6144a2603a23c?s=110" alt="Author&#39;s picture" />
     
     <h4 id="about-card-name">RsttRstk</h4>
     
